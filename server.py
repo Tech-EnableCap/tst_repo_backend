@@ -8,4 +8,4 @@ CORS(app)
 def exp():
 	return jsonify({'h': 'helloWorld'})
 
-	app.run(host="172.31.47.251")
+	app.run(host='0.0.0.0', port=5000)
